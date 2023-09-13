@@ -48,6 +48,7 @@ png格式改高度：
 PNG 格式：
 IHDR -- 文件头
 IDAT -- 数据块 “每个IDAT数据块最多存放65524个字节的数据，存满才能存下一个”
+pngcheck.exe -v 123.png 查看数据块
 
 CTF 中 Hex处理思路：转ASCII码、转二进制、转文件
 
