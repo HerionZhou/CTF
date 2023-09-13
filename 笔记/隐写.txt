@@ -1,0 +1,61 @@
+CTF - 隐写
+
+1、图形图像隐写
+	1、jpg - FFD8 -- FFD9（修改图片高度height、复合文件jpg+zip\jpg+png、像素点出题、lsb-最低有效位隐写）
+	2、png - 89504E47（修改高度height、修改宽度、复合文件、像素点出题、lsb出题）
+	3、GIF、bmp（图像分层）
+
+常见文件的文件头：
+1、jpg：FFD8FFE0
+2、png：89504E47
+3、GIF：GIF89a     47495638
+4、zip：504B0304。     504B0506。  x60.zip    winrar
+
+工具：
+Python3（进制转换、二维码的转换、取证类……）
+Java环境（1.8）
+十六进制工具：winhex、010 editor、HXD
+查看文件是否为复合类型文件：binwalk    分离文件：foremost
+lsb的工具：stegslove.jar
+
+2、文档及音视频隐写
+	文档：word\pdf\txt
+		office word：.docx 其实是一个.zip的文件
+		word 的隐藏文字、字体颜色隐藏
+	压缩包类型：
+		密码的破解：暴力破解、明文攻击、掩码攻击
+	音频、视频：
+		音频+摩斯密码 音频的高低电平 音频到进制的转换
+		视频 拆帧。 mp4->png拆帧后再补帧png->png
+
+3、脑洞题
+
+MISC - 杂项 --- 这个类型什么知识都会涉及（隐写、取证、密码）
+
+
+复合文件提取：
+以jpg+zip为例：
+方法一：使用工具 binwalk + foremost
+方法二：直接改后缀
+
+binwalk：binwalk + 文件全名
+foremost：foremost + 文件全名 -o 输出到指定文件夹
+
+png格式改高度：
+1、手动改
+2、自动改 - 一把梭
+
+PNG 格式：
+IHDR -- 文件头
+IDAT -- 数据块 “每个IDAT数据块最多存放65524个字节的数据，存满才能存下一个”
+
+CTF 中 Hex处理思路：转ASCII码、转二进制、转文件
+
+二进制：转二维码、二进制转ASCII
+
+
+
+
+
+
+

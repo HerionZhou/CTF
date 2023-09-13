@@ -1,0 +1,47 @@
+CTF - 取证
+
+1、网络流量分析
+	漏洞的流量特征
+	涉及工具：Wireshark
+	Wireshark工具的使用
+	1、字符串提取
+	2、文件提取
+	3、Wireshark追踪流
+	4、导出对象
+	5、脚本：tshark
+
+	知识点：
+		1、网络流量特征：ping -> icmp 了解计算机网络的协议类型：应用层协议 -> 对应应用 
+		2、漏洞的流量特征
+			1、GET型：所有参数全部都在URL里
+			2、POST型	：部分参数会在body里
+				举例：文件包含漏洞：
+					index.php?file=/etc/passwd
+					文件上传漏洞：
+						假设我上传一个1.txt，/upload/upload.php
+						POST 请求体：filename=‘1.txt’
+							1.txt的内容
+
+
+2、web日志分析
+	漏洞的日志特征。绝大多数都是GET请求。
+	1、SQL注入：   联合查询：union select 
+						报错注入：报错注入函数：updatexml()
+						盲注：1、时间盲注 - sleep(s)
+								2、布尔盲注 - if()
+						like limit(0,1)
+						堆叠注入 - 一次性执行了多条SQL语句
+						二次注入 - 两次SQL注入，效果不同，执行是有时间间隔。
+	2、文件上传：
+				POST 有文件名、有upload类似的字眼
+	3、文件包含：
+			协议：php://filter  php://input(POST)  data://   phar://
+	4、暴力破解 / 目录或文件扫描
+			http状态码：200 会话正常。300 重定向。400客户端错误 500服务端错误
+
+3、计算机内存分析
+	以Windows为主：win7SP1x64  winxpSP1
+	
+	会用工具就能做题：volatility windows下挂载磁盘的工具 DG
+
+	.raw   无后缀   .vmdk

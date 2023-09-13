@@ -1,0 +1,73 @@
+CTF 密码学
+
+1、编码与转码
+	1、进制类编码（二进制、十进制、十六进制）
+	2、base家族（base16 、 base32 、 base64）
+		base16(A-E、0-9)
+		base32(A-Z 、 2-7 、/、+ ) 部分编码字符串具有等号=特征，等号不属于编码字符
+		base64(A-Z、a-z、0-9、/、+ ) 部分编码字符串具有等号=特征，等号不属于编码字符
+	3、URL编码（百分号编码）。 %+字符的十六进制
+		 # -> %23
+       = -> %3D
+	4、unicode、html实体码
+
+	编码之间的混合转换。
+
+2、加密与解密（对称加密）
+	1、古典密码学（汉字编码、天干地支）
+	2、近代密码学（凯撒密码（变异凯撒）、培根（a、b）、栅栏密码、维吉尼亚编码（需要存在密钥））
+		凯撒的固定移位、交替递增移位、交替前后递增移位、奇偶顺序移位。
+	3、现代密码学（DES、3DES、AES）- 如果用base64解，前缀salt
+		解码都是需要密钥的。
+
+	取模运算（12 % 5）、矩阵、开方、大数的分解、素数
+
+3、非对称加密（RSA、国密算法）
+
+	选择两个大素数 p 和 q
+		N = p * q
+		phi(N) = (p-1)*(q-1)  N的欧拉函数
+		选择一个数 e (1<e<phi(N)) e与phi(n)需要互素
+		取e的模反元素 d (逆元)  e * d = 1 mod (phi(N))
+		
+		明文为m，密文为c
+
+		加密m： c=pow(m,e,N)   c=m ^ e % N
+		解密m： m=pow(c,d,N)   m=c ^ d % N
+
+		p和q，大整数N的两个因子
+		N称之为模数
+		e 和 d ：互为模反数的两个指数
+		（N，e）：公钥
+		（N，d）：私钥
+
+		d = gmpy2.invert(e,(phi(N)))
+
+Python需要安装的库：
+	1、pip3 install gmpy2
+	2、pip3 install pycryptodome
+	3、libnum
+	4、pip3 install rsa
+
+yafu-x64.exe factor(十进制 or 0x十六进制)
+
+通过公钥获得N和E
+openssl rsa -in public.pem -pubin -noout -text -modulus
+
+分解N得到P和Q：
+
+yafu-x64.exe factor()
+
+通过rsatool去生成私钥
+python rsatool.py -p 314436328879392457343835667929324128609 -q 290579950064240059571837821251441436997 -e 65537 -o pri.pem -f PEM
+
+通过私钥解密：
+openssl rsautl -decrypt -in flag.enc -inkey pri.pem -out flag.txt
+
+
+
+
+
+
+
+	
