@@ -1,0 +1,36 @@
+https://blog.csdn.net/qq_42898701/article/details/122110945
+
+alt+F11 进入VBA
+插入--模块
+
+Sub crack()
+
+Dim i As Long
+
+Dim FileName As String
+
+i = 0
+
+FileName = Application.GetOpenFilename("Excel文件（*.xls & *.xlsx）,*.xls;*.xlsx", , "VBA破解")
+
+FileName = Right(FileName, Len(FileName) - InStrRev(FileName, "\"))
+
+Application.ScreenUpdating = False
+
+line2: On Error GoTo line1
+
+Workbooks.Open FileName, , True, , i
+
+MsgBox "Password is " & i
+
+Exit Sub
+
+line1: i = i + 1
+
+Resume line2
+
+Application.ScreenUpdating = True
+
+End Sub
+
+运行
