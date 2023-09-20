@@ -1,0 +1,118 @@
+//导航
+$('.nav_close').click(function () {
+    if (!$(this).hasClass('nav_down')) {
+        $(this).addClass('nav_down');
+        $(".nianji").animate({left: '0'}, 400);
+    } else {
+        $(this).removeClass('nav_down');
+        $(".nianji").animate({left: '-100%'}, 400);
+    }
+});
+    // 其它展开收起2
+    $(".tag_mid1").click(function(){
+        $(".mid_ul").css({"height":"auto"});
+        $(".tag_mid1").hide();
+        $(".tag_mid2").show();
+    })
+    $(".tag_mid2").click(function(){
+        $(".mid_ul").css({"height":"114px"});
+        $(".tag_mid2").hide();
+        $(".tag_mid1").show();
+    })
+    // 其它展开收起
+    $(".tag_bot1").click(function(){
+        $(".bot_ul").css({"height":"auto"});
+        $(".tag_bot1").hide();
+        $(".tag_bot2").show();
+    })
+    $(".tag_bot2").click(function(){
+        $(".bot_ul").css({"height":"170px"});
+        $(".tag_bot2").hide();
+        $(".tag_bot1").show();
+    })
+    // 分类展开收起
+    $(".tag_zhan1").click(function(){
+        $(".tag_nr").toggleClass("tag_nr_te");
+        $(".tag_rwap").toggleClass("tag_rwap_te");
+        $(".tag_zhan1").hide();
+        $(".tag_zhan2").show();
+    })
+    $(".tag_zhan2").click(function(){
+        $(".tag_nr").toggleClass("tag_nr_te");
+        $(".tag_rwap").toggleClass("tag_rwap_te");
+        $(".tag_zhan2").hide();
+        $(".tag_zhan1").show();
+    })
+
+//回到顶部
+
+$(document).ready(function () {
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 50) {
+            $('.sidetop .backtop').fadeIn(800);
+        } else {
+            $('.sidetop .backtop').fadeOut(800);
+        }
+    });
+    $("#top").click(function () {
+        $('body,html').animate({scrollTop: 0}, 300);
+        return false;
+    });
+});
+//培训分类
+$(document).ready(function () {
+    var ua = navigator.userAgent.toLowerCase();
+
+    if(ua.indexOf('swan-baiduboxapp') != -1){
+        $('.rougao').hide();
+    }
+    jQuery.jqtab = function (tabtit, tabcon) {
+        $(tabcon).hide();
+        $(tabtit + " li:first").addClass("thistab").show();
+        $(tabcon + ":first").show();
+        $(tabtit + " li").click(function () {
+            $(tabtit + " li").removeClass("thistab");
+            $(this).addClass("thistab");
+            $(tabcon).hide();
+            var activeTab = $(this).find("a").attr("tab");
+            $("#" + activeTab).fadeIn();
+            return false;
+        });
+    };
+    $.jqtab("#tabs", ".tab_con");
+    return false;
+
+});
+
+//幻灯片
+function banner() {
+    if (banCont <= aa - 1) {
+        $(".bannerBg").animate({left: -100 * banCont + "%"});
+        $(".bannerCont em").animate({left: 17 * banCont + "px"});
+    } else {
+        $(".bannerBg").animate({left: "0px"});
+        banCont = 0;
+        $(".bannerCont em").animate({left: "0px"});
+    }
+    banCont++;
+}
+
+banCont = 0;
+aa = 0;
+aa = $(".bannerCont a").length;
+$(".banner ul.bannerBg").css("width", 100 * aa + "%");
+$(".bannerCont").css("width", 18 * aa + "px");
+var banGun;
+banner();
+banGun = setInterval("banner()", 3000);
+$(".bannerCont a").click(function () {
+    clearInterval(banGun);
+    banCont = $(this).attr("value");
+    banner();
+    banGun = setInterval("banner()", 3000);
+});
+$(".banner .bannerBg").hover(function () {
+    clearInterval(banGun);
+}, function () {
+    banGun = setInterval("banner()", 3000);
+});
