@@ -1,0 +1,300 @@
+
+7460:SOFTWARE\\Borland\\Delphi\\RTL
+SOFTWARE\\Borland\\Delphi\\RTL
+
+7488:FPUMaskValue
+FPUMaskValue
+
+9340:\r\n
+\r\n
+
+12316:PEiD Patch Maker 0.5.0
+PEiD 补丁制作 0.5.0
+
+12356:PEiD Patch Maker 0.5.0
+PEiD 补丁制作 0.5.0
+
+13992:OFFSETS
+OFFSETS
+
+14000:BYTES
+BYTES
+
+14008:COUNT
+COUNT
+
+14016:INFO
+INFO
+
+14024:TITLE
+TITLE
+
+14032:FILESIZE
+FILESIZE
+
+14044:NEWFILESIZE
+NEWFILESIZE
+
+14056:TARGETNAME
+TARGETNAME
+
+14068:URL
+URL
+
+14072:AUTHOR
+AUTHOR
+
+14080:RELEASEDATA
+RELEASEDATA
+
+14092:INFORMATION
+INFORMATION
+
+15516:PEiD_Patch_Maker.ini
+PEiD_Patch_Maker.ini
+
+15544:XM
+XM
+
+15548:Settings
+设置
+
+15560:Editor
+Editor
+
+15568:Packer
+Packer
+
+15576:Caption
+标题
+
+15584:Target
+Target
+
+15592:URL
+URL
+
+15596:Author
+作者
+
+15604:RData
+RData
+
+15612:Information
+信息
+
+15624:About
+关于
+
+15632:Regadd
+Regadd
+
+15640:IsReg
+IsReg
+
+15648:IsXM
+IsXM
+
+15656:IsEditor
+IsEditor
+
+15668:IsPacker
+IsPacker
+
+16860:PEiD_Patch_Maker.ini
+PEiD_Patch_Maker.ini
+
+16884:XM
+XM
+
+16888:Settings
+Settings
+
+16900:Editor
+Editor
+
+16908:Packer
+Packer
+
+16916:Caption
+Caption
+
+16924:Target
+Target
+
+16932:URL
+URL
+
+16936:Author
+Author
+
+16944:RData
+RData
+
+16952:Information
+Information
+
+16964:About
+About
+
+16972:Regadd
+Regadd
+
+17508:IsReg
+IsReg
+
+17516:IsXM
+IsXM
+
+17524:IsEditor
+IsEditor
+
+17536:IsPacker
+IsPacker
+
+18230:h8V@
+h8V@
+
+18362:hpV@
+hpV@
+
+18964:Open XM Sound
+打开 XM 音乐
+
+18980:XM Sound
+XM 音乐
+
+19000:Open resource editor
+打开资源编辑器
+
+19024:Executable
+Executable
+
+19052: %s
+ %s
+
+19056:Open EXE-packer
+Open EXE-packer
+
+20031:wZ@
+wZ@
+
+20364:0i@
+0i@
+
+20964:IMPosTOR
+IMPosTOR
+
+22232:Target.exe
+Target.exe
+
+22496:http://www.Target-url.com
+http://www.Target-url.com
+
+23024:May.25.2007 11:??:00 PM-AM
+May.25.2007 11:??:00 PM-AM
+
+23288:Version : ?.?.? - File patch : Yes - Registry patch : No - Compiler : Borland Delphi 7.0 -  File Size : 0,000,000 bytes - Close target application, copy patch to install folder and apply.
+Version : ?.?.? - File patch : Yes - Registry patch : No - Compiler : Borland Delphi 7.0 -  File Size : 0,000,000 bytes - Close target application, copy patch to install folder and apply.
+
+23552:Open original file
+Open original file
+
+23572:Executable
+Executable
+
+23608:Open cracked file
+Open cracked file
+
+23628:Error: Can not open original file.
+Error: Can not open original file.
+
+23664:Error: Can not open cracked file.
+Error: Can not open cracked file.
+
+23700:%d byte difference found.
+%d byte difference found.
+
+23728:Difference byte not found.
+Difference byte not found.
+
+23756:Difference > MaxDifference ! :D
+Difference > MaxDifference ! :D
+
+23788:Unknown error !!
+未知错误 !!
+
+23808:Save crack as
+补丁另存为
+
+23824:Executable
+可执行文件
+
+23847:.*
+.*
+
+23852:EXE
+EXE
+
+23856:REG
+REG
+
+23880:-9 "
+-9 "
+
+23888:Crack successfull generated! Size: %d kb. 
+补丁成功生成! 大小: %d kb. 
+
+23932:Error saving patch data!
+修补数据时发生错误!
+
+23968:Error: Can not open file 
+错误：无法打开文件
+
+24004: !
+ !
+
+25147:h|p@
+h|p@
+
+25241:p@
+p@
+
+25700:PEiD_Patch_Maker.ini
+PEiD_Patch_Maker.ini
+
+25724:Open cracked file
+打开破解文件
+
+25744:Executable
+可执行文件
+
+25784:Open original file
+打开原始文件
+
+25804:Open registry file
+打开注册表文件
+
+25824:Registry files
+注册表文件
+
+25856:open
+open
+
+25864:Error: Crack not found.
+错误：未发现补丁。
+
+25896:PEiD Patch Maker 0.5.0
+PEiD 补丁制作工具 0.5.0
+
+26700:Error
+Error
+
+26708:Runtime error     at 00000000
+Runtime error     at 00000000
+
+108157:$h
+$h
+
+122368:foA
+foA

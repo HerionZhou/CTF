@@ -1,0 +1,31 @@
+; xInfo v1.01 By BoB, based on an idea by Haggar
+; 
+; Use in same way as UserDB.TXT, but use Info= instead of signature=  .. EG:
+; [Upx-Lock]
+; Info=Protector for Upx..  -> http://www.Team-X.ru
+; 
+; It works with partial matches, so putting Upx will be same info for all detected files
+; with Upx in the name, so put EG Upx-Lock before Upx, or better to put exact string from PEiD ..
+; Also, name is not case-sensitive, and it works fine with external detections .. 
+; The " *" added by PEiD to external detections is ignored, so don't put in name.
+
+; Find any with "PECompact 2" in title ..
+
+[PECompact 2]
+Info=Great packer, many modes of compression ..  -> http://www.bitsum.com
+
+; Find any with "Upx-Lock" in title ..
+
+[Upx-Lock]
+Info=Protector for Upx..  -> http://www.Team-X.ru
+
+; If PEiD detected Upx EXE (Whole detection string copied from PEiD) ..
+
+[UPX 0.89.6 - 1.02 / 1.05 - 1.24 -> Markus & Laszlo]
+Info=Good packer, no protection ..  -> http://upx.sourceforge.net
+
+; If PEiD detected Upx DLL ..
+
+[UPX 0.80 - 1.24 DLL -> Markus & Laszlo]
+Info=Good packer, no protection ..  -> http://upx.sourceforge.net
+

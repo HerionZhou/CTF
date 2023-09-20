@@ -1,0 +1,15 @@
+数据库(phpmyadmin)方面的弱口令:
+账号：root
+密码：root、root123、123456 ..
+
+tomcat后台:
+账号：admin、tomcat、manager
+密码：admin、tomcat、admin123、123456、manager ..
+
+jboss后台:
+账号：admin、jboss、manager
+密码：admin、jboss、manager、123456 ..
+
+Weblogic后台:
+账号：webogic、admin、manager
+密码：webogic、admin、manager、123456 ..

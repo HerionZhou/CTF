@@ -1,0 +1,2 @@
+ADLER32 :: 000010EC :: 004010EC
+ZLIB deflate [long] :: 00006108 :: 00406108
