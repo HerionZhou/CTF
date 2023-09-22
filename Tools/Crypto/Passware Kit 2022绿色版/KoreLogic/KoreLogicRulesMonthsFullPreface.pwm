@@ -1,0 +1,229 @@
+{
+	"metaData": {
+		"modelSaveTime": "2018.7.5 15:12",
+		"modelVersion": "1.0",
+		"modelDescription": "Passware Kit Attacks List"
+	},
+	"searchProject": {
+		"model": [
+			{
+				"children": [
+					{
+						"children": [
+							{
+								"children": [
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "january"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "february"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "march"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "april"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "may"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "june"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "july"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "august"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "september"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "october"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "november"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "december"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									}
+								],
+								"max-length": 9,
+								"min-length": 3,
+								"type": "AppendNode"
+							},
+							{
+								"dictionary": "English",
+								"mask": "",
+								"max-length": 15,
+								"min-length": 0,
+								"type": "DictionaryNode"
+							}
+						],
+						"max-length": 24,
+						"min-length": 0,
+						"reverse": false,
+						"type": "JoinNode"
+					}
+				]
+			}
+		]
+	}
+}

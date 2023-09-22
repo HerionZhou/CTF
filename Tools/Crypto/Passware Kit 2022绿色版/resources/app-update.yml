@@ -1,0 +1,7 @@
+provider: generic
+url: 'https://pk.passware.com/autoupdate'
+channel: latest
+updaterCacheDirName: passware-updater
+publisherName:
+  - Passware OÜ
+  - Passware OU

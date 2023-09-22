@@ -1,0 +1,63 @@
+{
+    "defaultAcceleratorTimeout": 120000,
+    "defaultMeasureTimeout": 60000,
+    "defaultCalibrationTimeout": 180000,
+    "targetItems": [
+        {
+            "path": "word2010.digest",
+            "selected": true
+        },
+        {
+            "path": "word2019.digest",
+            "selected": true
+        },
+        {
+            "path": "SystemAPFS.digest",
+            "calibrationTimeout": 240000,
+            "selected": true
+        },
+        {
+            "path": "FileVault2.digest",
+            "calibrationTimeout": 240000,
+            "selected": true
+        },
+        {
+            "path": "Itunes_10_2Manifest.digest",
+            "selected": true
+        },
+        {
+            "path": "rar5.digest",
+            "selected": true
+        },
+        {
+            "path": "bitlocker.digest",
+            "calibrationTimeout": 240000,
+            "selected": true
+        },
+        {
+            "path": "7z.digest"
+        },
+        {
+            "path": "AdobeAcrobat6.digest"
+        },
+        {
+            "path": "CryptoWallet.digest"
+        },
+        {
+            "path": "BlockchainCore.digest"
+        },
+        {
+            "path": "Itunes_5xManifest.digest"
+        },
+        {
+            "path": "iWork.digest"
+        },
+        {
+            "path": "LUKS.digest",
+            "calibrationTimeout": 240000
+        },
+        {
+            "path": "zip.digest"
+        }
+    ]
+}

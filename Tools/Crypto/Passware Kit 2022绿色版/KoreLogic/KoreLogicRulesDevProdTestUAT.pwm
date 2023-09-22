@@ -1,0 +1,101 @@
+{
+	"metaData": {
+		"modelSaveTime": "2018.7.5 15:12",
+		"modelVersion": "1.0",
+		"modelDescription": "Passware Kit Attacks List"
+	},
+	"searchProject": {
+		"model": [
+			{
+				"children": [
+					{
+						"children": [
+							{
+								"dictionary": "English",
+								"mask": "",
+								"max-length": 15,
+								"min-length": 0,
+								"type": "DictionaryNode"
+							},
+							{
+								"children": [
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "uat"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "dev"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "test"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "prod"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									}
+								],
+								"max-length": 4,
+								"min-length": 3,
+								"type": "AppendNode"
+							}
+						],
+						"max-length": 19,
+						"min-length": 0,
+						"reverse": false,
+						"type": "JoinNode"
+					}
+				]
+			}
+		]
+	}
+}

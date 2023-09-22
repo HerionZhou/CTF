@@ -1,0 +1,60 @@
+{
+	"metaData": {
+		"modelSaveTime": "2018.7.5 15:12",
+		"modelVersion": "1.0",
+		"modelDescription": "Passware Kit Attacks List"
+	},
+	"searchProject": {
+		"model": [
+			{
+				"children": [
+					{
+						"children": [
+							{
+								"dictionary": "English",
+								"mask": "",
+								"max-length": 15,
+								"min-length": 0,
+								"type": "DictionaryNode"
+							},
+							{
+								"children": [
+									{
+										"type": "ConstNode",
+										"value": "19"
+									},
+									{
+										"type": "ConstNode",
+										"value": "20"
+									}
+								],
+								"max-length": 2,
+								"min-length": 2,
+								"type": "AppendNode"
+							},
+							{
+								"charset-custom": false,
+								"charset-custom-symbols": "",
+								"charset-digits": true,
+								"charset-dots": false,
+								"charset-lower": false,
+								"charset-space": false,
+								"charset-upper": false,
+								"language": "English",
+								"min-length": 1,
+								"max-length": 2,
+								"pattern": "",
+								"start-with": "",
+								"type": "BruteForceNode"
+							}
+						],
+						"max-length": 19,
+						"min-length": 0,
+						"reverse": false,
+						"type": "JoinNode"
+					}
+				]
+			}
+		]
+	}
+}

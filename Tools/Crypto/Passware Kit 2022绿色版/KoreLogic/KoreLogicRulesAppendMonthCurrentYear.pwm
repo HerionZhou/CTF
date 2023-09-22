@@ -1,0 +1,233 @@
+{
+	"metaData": {
+		"modelSaveTime": "2018.7.5 15:10",
+		"modelVersion": "1.0",
+		"modelDescription": "Passware Kit Attacks List"
+	},
+	"searchProject": {
+		"model": [
+			{
+				"children": [
+					{
+						"children": [
+							{
+								"dictionary": "English",
+								"mask": "",
+								"max-length": 15,
+								"min-length": 0,
+								"type": "DictionaryNode"
+							},
+							{
+								"children": [
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "jan"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "feb"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "mar"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "apr"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "may"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "jun"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "jul"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "aug"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "sep"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "oct"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "nov"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									},
+									{
+										"children": [
+											{
+												"type": "ConstNode",
+												"value": "dec"
+											}
+										],
+										"LowerCase": true,
+										"MixCase": false,
+										"NormalCase": true,
+										"OriginalCase": false,
+										"ReverseCase": false,
+										"ToggleCase": false,
+										"UpperCase": true,
+										"type": "CasingNode"
+									}
+								],
+								"max-length": 3,
+								"min-length": 3,
+								"type": "AppendNode"
+							},
+							{
+								"type": "ConstNode",
+								"value": "2018"
+							}
+						],
+						"max-length": 22,
+						"min-length": 0,
+						"reverse": false,
+						"type": "JoinNode"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,23 @@
+{
+    "model" : [
+       {
+          "children" : [
+             {
+                "type" : "BruteForceNode",
+                "min-length" : 16,
+                "max-length" : 16,
+                "language" : "English",
+                "charset-lower" : true,
+                "charset-upper" : false,
+                "charset-digits" : false,
+                "charset-dots" : false,
+                "charset-space" : false,
+                "charset-custom" : false,
+                "charset-custom-symbols" : "",
+                "pattern" : "",
+                "start-with" : ""
+             }
+          ]
+       }
+    ]
+ }
