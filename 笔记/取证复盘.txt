@@ -1,0 +1,90 @@
+1.RAID恢复
+	FTK Imager挂载RAID阵列--R-Studio恢复工具创建虚拟块RAID--自动检测后导出镜像--逐字节导出
+
+2.宝塔源码分析
+	tools.py
+	public.py
+
+3.apk源码分析
+	assert/apps内查看前端源码
+	sojson.v4解密
+	
+4.管理员密码
+	分析日志查找密码
+
+5.VC容器
+	密码
+	密钥文件
+
+
+1.java项目配置文件
+	application.properties
+
+2.jar包监听端口
+	1.用jd-gui反编译jar包
+	2.查看application.properties配置文件
+	3.查看server.port
+	
+3.spring项目@value
+	application.properties配置文件中查看
+	
+4.后台运行
+	nohup命令
+	后台运行vue项目
+		nohup npm run dev &
+		
+5.查看mysql版本
+	1.mysql -V
+	2.mysql --help
+	3.连接数据库select version();
+	4.连接数据库status;
+	
+6.查看wsl子系统信息
+	wsl -l -v
+	
+7.查看mysql历史sql语句
+	查看mysql数据目录下*.log文件
+	
+8.docker文件导入导出
+	导入：docker cp /path/filename 容器id或名称:/path/filename
+	导出：docker cp 容器id或名称:/path/filename /path/filename
+	
+9.奇怪格式的文件
+	可尝试修改为.zip，看是否能解压缩
+
+1.查看文件系统格式
+	df -T    -T为显示类型
+	其他查看分区信息的命令
+		fdisk -l
+		
+2.docker
+	systemctl start docker  #启动docker
+	docker ps  #查看正在运行的容器
+	docker ps -a  #查看所有容器
+	docker exec -it [容器id] /bin/bash  #以命令行方式进入容器
+	exit  #退出容器
+	docker inspect [container id]  #查看docker容器元数据
+	
+3.手工修改密码
+	按e进入  init=/bin/sh  ctrl+x进入单用户模式
+	mount -o rw,remount /  #修改读写权限
+	passwd [用户名]  #修改密码
+	touch /.autorelabel  #
+	exec /sbin/init  #重启
+	
+	缺少权限：
+		chattr -i /usr/bin/passwd
+		chattr -i /etc/passwd
+		chattr -i /etc/shadow
+		chown root:root /usr/bin/passwd
+		chmod u=rwx,go=rx,u+s /usr/bin/passwd
+		
+4.vmware vmdk合并
+	vmware安装目录进入cmd
+	vmware-vdiskmanager.exe -r "需要合并的vmdk位置" -t 0 "保存位置"
+	
+5.VeraCrypt
+	密码+密钥双重加密
+	
+6.查看定时任务
+	crontab -l

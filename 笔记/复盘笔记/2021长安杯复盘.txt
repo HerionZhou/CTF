@@ -1,0 +1,19 @@
+2021长安杯复盘
+
+1.RAID恢复
+	FTK Imager挂载RAID阵列--R-Studio恢复工具创建虚拟块RAID--自动检测后导出镜像--逐字节导出
+
+2.宝塔源码分析
+	tools.py
+	public.py
+
+3.apk源码分析
+	assert/apps内查看前端源码
+	sojson.v4解密
+	
+4.管理员密码
+	分析日志查找密码
+
+5.VC容器
+	密码
+	密钥文件

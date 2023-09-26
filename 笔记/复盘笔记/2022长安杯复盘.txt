@@ -1,0 +1,34 @@
+1.java项目配置文件
+	application.properties
+
+2.jar包监听端口
+	1.用jd-gui反编译jar包
+	2.查看application.properties配置文件
+	3.查看server.port
+	
+3.spring项目@value
+	application.properties配置文件中查看
+	
+4.后台运行
+	nohup命令
+	后台运行vue项目
+		nohup npm run dev &
+		
+5.查看mysql版本
+	1.mysql -V
+	2.mysql --help
+	3.连接数据库select version();
+	4.连接数据库status;
+	
+6.查看wsl子系统信息
+	wsl -l -v
+	
+7.查看mysql历史sql语句
+	查看mysql数据目录下*.log文件
+	
+8.docker文件导入导出
+	导入：docker cp /path/filename 容器id或名称:/path/filename
+	导出：docker cp 容器id或名称:/path/filename /path/filename
+	
+9.奇怪格式的文件
+	可尝试修改为.zip，看是否能解压缩

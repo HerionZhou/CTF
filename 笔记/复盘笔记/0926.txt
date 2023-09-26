@@ -1,0 +1,2 @@
+docker inspect [container id]
+查看docker容器元数据
