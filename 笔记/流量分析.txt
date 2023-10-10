@@ -27,6 +27,7 @@
 	2-2.在wireshark加载密码：编辑--首选项--Protocols--IEEE 802.11--Edit--wpa-pwd--[password:ESSID]
 8.SSL
 	协议为TLS，经过了加密
-	加载.log密码文件：编辑--首选项--Protocols--TLS--浏览
+	1.加载.log密码文件：编辑--首选项--Protocols--TLS--浏览
+	2.加载RSA私钥：编辑--首选项--RSA密钥
 9.文件
 	有一些文件在上传包里，例如菜刀流量，存在z1，z2，z1为文件名，z2为文件16进制编码
