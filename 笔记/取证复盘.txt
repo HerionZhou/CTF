@@ -88,3 +88,9 @@
 	
 6.查看定时任务
 	crontab -l
+	
+	
+wireshark使用：
+1.http contains ""
+2.查看开放端口
+	ip.dst == **** and tcp.flags.reset == 1
