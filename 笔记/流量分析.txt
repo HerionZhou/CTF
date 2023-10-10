@@ -1,0 +1,32 @@
+流量分析思路
+
+1.直接搜索flag
+	分组字节流搜索flag
+	flag变种：Base64编码，16进制编码，大小写
+	可使用python脚本进行搜索
+2.压缩包
+	1.导出对象，直接导出文件
+	2.导出分组字节流，用360压缩查看
+	3.有密码尝试直接搜索password/爆破
+3.ASCII码
+	不可打印字符，转为HEX，查看ascii码
+4.蓝牙协议
+	obex:蓝牙传输文件的协议
+5.USB键盘流量
+	直接用脚本跑
+6.USB鼠标流量
+	tshark命令提取数据
+	python脚本转换
+	gnuplot绘图
+7.无线流量
+	eapol协议，存在握手过程，爆破密码
+	在kali下：
+	1.爆破无线密码：aircrack-ng xxx.pcap -w [字典]
+		得到ESSID和密码
+	2-1.解密流量包：airdecap-ng xxx.pacp -e [ESSID] -p [password] -o xxxx.pacp
+	2-2.在wireshark加载密码：编辑--首选项--Protocols--IEEE 802.11--Edit--wpa-pwd--[password:ESSID]
+8.SSL
+	协议为TLS，经过了加密
+	加载.log密码文件：编辑--首选项--Protocols--TLS--浏览
+9.文件
+	有一些文件在上传包里，例如菜刀流量，存在z1，z2，z1为文件名，z2为文件16进制编码
