@@ -43,26 +43,31 @@ CTF 密码学
 
 		d = gmpy2.invert(e,(phi(N)))
 
-Python需要安装的库：
-	1、pip3 install gmpy2
-	2、pip3 install pycryptodome
-	3、libnum
-	4、pip3 install rsa
+	Python需要安装的库：
+		1、pip3 install gmpy2
+		2、pip3 install pycryptodome
+		3、libnum
+		4、pip3 install rsa
 
-yafu-x64.exe factor(十进制 or 0x十六进制)
+	yafu-x64.exe factor(十进制 or 0x十六进制)
 
-通过公钥获得N和E
-openssl rsa -in public.pem -pubin -noout -text -modulus
+	通过公钥获得N和E
+	openssl rsa -in public.pem -pubin -noout -text -modulus
 
-分解N得到P和Q：
+	分解N得到P和Q：
 
-yafu-x64.exe factor()
+	yafu-x64.exe factor()
 
-通过rsatool去生成私钥
-python rsatool.py -p 314436328879392457343835667929324128609 -q 290579950064240059571837821251441436997 -e 65537 -o pri.pem -f PEM
+	通过rsatool去生成私钥
+	python rsatool.py -p 314436328879392457343835667929324128609 -q 290579950064240059571837821251441436997 -e 65537 -o pri.pem -f PEM
 
-通过私钥解密：
-openssl rsautl -decrypt -in flag.enc -inkey pri.pem -out flag.txt
+	通过私钥解密：
+	openssl rsautl -decrypt -in flag.enc -inkey pri.pem -out flag.txt
+	
+4.pycipher库
+	Gronsfeld密码：
+		from pycipher import Gronsfeld
+		flag = Gronsfeld([key array]).decipher('密码')
 
 
 
