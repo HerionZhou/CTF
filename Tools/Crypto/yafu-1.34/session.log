@@ -1304,3 +1304,27 @@ using 20 random witnesses for Rabin-Miller PRP checks
 
 09/12/23 13:45:17 v1.34.5 @ DESKTOP-SBC1B4A, Processing expression: factor(88503001447845031603457048661635807319447136634748350130947825183012205093541)
 
+10/11/23 22:12:07 v1.34.5 @ DESKTOP-SBC1B4A, System/Build Info: 
+Using GMP-ECM 6.3, Powered by GMP 5.1.1
+cached 78498 primes. pmax = 999983
+detected Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+detected L1 = 32768 bytes, L2 = 6291456 bytes, CL = 64 bytes
+measured cpu frequency ~= 2825.698720
+using 20 random witnesses for Rabin-Miller PRP checks
+
+10/11/23 22:12:08 v1.34.5 @ DESKTOP-SBC1B4A, New random seeds: 1101265157, 3390468704
+
+10/11/23 22:12:08 v1.34.5 @ DESKTOP-SBC1B4A, Processing expression: factor(0x53a121a11e36d7a84dde3f5d73cf)
+
+10/11/23 22:13:09 v1.34.5 @ DESKTOP-SBC1B4A, System/Build Info: 
+Using GMP-ECM 6.3, Powered by GMP 5.1.1
+cached 78498 primes. pmax = 999983
+detected Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+detected L1 = 32768 bytes, L2 = 6291456 bytes, CL = 64 bytes
+measured cpu frequency ~= 2807.882760
+using 20 random witnesses for Rabin-Miller PRP checks
+
+10/11/23 22:13:09 v1.34.5 @ DESKTOP-SBC1B4A, New random seeds: 1065126562, 523415712
+
+10/11/23 22:13:09 v1.34.5 @ DESKTOP-SBC1B4A, Processing expression: factor(0x99122e61dc7bede74711185598c7)
+
