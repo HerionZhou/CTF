@@ -37,3 +37,5 @@
 		key：e45e329feb5d925b
 		iv：0123456789abcdef
 	冰蝎2.0采用密钥协商机制，开头会有“pass=[3位数字]”的GET请求AES密钥
+11.dmp文件
+	使用mimikatz获得密码

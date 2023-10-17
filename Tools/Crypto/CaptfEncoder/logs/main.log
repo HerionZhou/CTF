@@ -9418,3 +9418,226 @@
 [2023-09-22 15:19:42.190] [info]  (App) Register Controller: ext.app.provider.ip-info.get
 [2023-09-22 15:19:42.191] [info]  (App) Register Controller: ext.app.provider.ip-whois.get
 [2023-09-22 15:19:42.192] [info]  (App) Register Controller: ext.app.provider.whois.get
+[2023-10-17 17:10:27.238] [info]  (App) Extensions dir: F:\CTF\Tools\Crypto\CaptfEncoder\extensions
+[2023-10-17 17:10:27.245] [info]  (App) Load extensions
+[2023-10-17 17:10:27.247] [info]  (App) Register Controller: ext.app.classical.adfgvx.decode
+[2023-10-17 17:10:27.248] [info]  (App) Register Controller: ext.app.classical.adfgvx.encode
+[2023-10-17 17:10:27.249] [info]  (App) Register Controller: ext.app.classical.adfgx.decode
+[2023-10-17 17:10:27.249] [info]  (App) Register Controller: ext.app.classical.adfgx.encode
+[2023-10-17 17:10:27.250] [info]  (App) Register Controller: ext.app.classical.affine.decode
+[2023-10-17 17:10:27.251] [info]  (App) Register Controller: ext.app.classical.affine.encode
+[2023-10-17 17:10:27.251] [info]  (App) Register Controller: ext.app.classical.atbash.decode
+[2023-10-17 17:10:27.252] [info]  (App) Register Controller: ext.app.classical.atbash.encode
+[2023-10-17 17:10:27.253] [info]  (App) Register Controller: ext.app.classical.autokey.decode
+[2023-10-17 17:10:27.253] [info]  (App) Register Controller: ext.app.classical.autokey.encode
+[2023-10-17 17:10:27.255] [info]  (App) Register Controller: ext.app.classical.baconian.decode
+[2023-10-17 17:10:27.255] [info]  (App) Register Controller: ext.app.classical.baconian.encode
+[2023-10-17 17:10:27.256] [info]  (App) Register Controller: ext.app.classical.beaufort.decode
+[2023-10-17 17:10:27.256] [info]  (App) Register Controller: ext.app.classical.beaufort.encode
+[2023-10-17 17:10:27.257] [info]  (App) Register Controller: ext.app.classical.bifid.decode
+[2023-10-17 17:10:27.257] [info]  (App) Register Controller: ext.app.classical.bifid.encode
+[2023-10-17 17:10:27.258] [info]  (App) Register Controller: ext.app.classical.caesar.decode
+[2023-10-17 17:10:27.258] [info]  (App) Register Controller: ext.app.classical.caesar.encode
+[2023-10-17 17:10:27.259] [info]  (App) Register Controller: ext.app.classical.four-square.decode
+[2023-10-17 17:10:27.259] [info]  (App) Register Controller: ext.app.classical.four-square.encode
+[2023-10-17 17:10:27.260] [info]  (App) Register Controller: ext.app.classical.gronsfeld.decode
+[2023-10-17 17:10:27.260] [info]  (App) Register Controller: ext.app.classical.gronsfeld.encode
+[2023-10-17 17:10:27.261] [info]  (App) Register Controller: ext.app.classical.hill.decode
+[2023-10-17 17:10:27.261] [info]  (App) Register Controller: ext.app.classical.hill.encode
+[2023-10-17 17:10:27.262] [info]  (App) Register Controller: ext.app.classical.playfair.decode
+[2023-10-17 17:10:27.262] [info]  (App) Register Controller: ext.app.classical.playfair.encode
+[2023-10-17 17:10:27.263] [info]  (App) Register Controller: ext.app.classical.polybius-square.decode
+[2023-10-17 17:10:27.263] [info]  (App) Register Controller: ext.app.classical.polybius-square.encode
+[2023-10-17 17:10:27.264] [info]  (App) Register Controller: ext.app.classical.porta.decode
+[2023-10-17 17:10:27.264] [info]  (App) Register Controller: ext.app.classical.porta.encode
+[2023-10-17 17:10:27.265] [info]  (App) Register Controller: ext.app.classical.rail-fence.decode
+[2023-10-17 17:10:27.265] [info]  (App) Register Controller: ext.app.classical.rail-fence.encode
+[2023-10-17 17:10:27.266] [info]  (App) Register Controller: ext.app.classical.rot18.decode
+[2023-10-17 17:10:27.267] [info]  (App) Register Controller: ext.app.classical.rot18.encode
+[2023-10-17 17:10:27.267] [info]  (App) Register Controller: ext.app.classical.rot47.decode
+[2023-10-17 17:10:27.267] [info]  (App) Register Controller: ext.app.classical.rot47.encode
+[2023-10-17 17:10:27.267] [info]  (App) Register Controller: ext.app.classical.rot5.decode
+[2023-10-17 17:10:27.267] [info]  (App) Register Controller: ext.app.classical.rot5.encode
+[2023-10-17 17:10:27.274] [info]  (App) Register Controller: ext.app.classical.rot13.decode
+[2023-10-17 17:10:27.274] [info]  (App) Register Controller: ext.app.classical.rot13.encode
+[2023-10-17 17:10:27.275] [info]  (App) Register Controller: ext.app.classical.running-key.decode
+[2023-10-17 17:10:27.275] [info]  (App) Register Controller: ext.app.classical.running-key.encode
+[2023-10-17 17:10:27.276] [info]  (App) Register Controller: ext.app.classical.simple-substitution.decode
+[2023-10-17 17:10:27.276] [info]  (App) Register Controller: ext.app.classical.simple-substitution.encode
+[2023-10-17 17:10:27.277] [info]  (App) Register Controller: ext.app.classical.straddle-checkerboard.decode
+[2023-10-17 17:10:27.277] [info]  (App) Register Controller: ext.app.classical.straddle-checkerboard.encode
+[2023-10-17 17:10:27.278] [info]  (App) Register Controller: ext.app.classical.vigenere.decode
+[2023-10-17 17:10:27.278] [info]  (App) Register Controller: ext.app.classical.vigenere.encode
+[2023-10-17 17:10:27.279] [info]  (App) Register Controller: ext.app.converter.ascii.decode
+[2023-10-17 17:10:27.279] [info]  (App) Register Controller: ext.app.converter.ascii.encode
+[2023-10-17 17:10:27.280] [info]  (App) Register Controller: ext.app.converter.base16.decode
+[2023-10-17 17:10:27.280] [info]  (App) Register Controller: ext.app.converter.base16.encode
+[2023-10-17 17:10:27.281] [info]  (App) Register Controller: ext.app.converter.base32.decode
+[2023-10-17 17:10:27.281] [info]  (App) Register Controller: ext.app.converter.base32.encode
+[2023-10-17 17:10:27.281] [info]  (App) Register Controller: ext.app.converter.base36.decode
+[2023-10-17 17:10:27.281] [info]  (App) Register Controller: ext.app.converter.base36.encode
+[2023-10-17 17:10:27.281] [info]  (App) Register Controller: ext.app.converter.base58.decode
+[2023-10-17 17:10:27.282] [info]  (App) Register Controller: ext.app.converter.base58.encode
+[2023-10-17 17:10:27.282] [info]  (App) Register Controller: ext.app.converter.base62.decode
+[2023-10-17 17:10:27.282] [info]  (App) Register Controller: ext.app.converter.base62.encode
+[2023-10-17 17:10:27.282] [info]  (App) Register Controller: ext.app.converter.base85.decode
+[2023-10-17 17:10:27.283] [info]  (App) Register Controller: ext.app.converter.base85.encode
+[2023-10-17 17:10:27.283] [info]  (App) Register Controller: ext.app.converter.base91.decode
+[2023-10-17 17:10:27.283] [info]  (App) Register Controller: ext.app.converter.base91.encode
+[2023-10-17 17:10:27.284] [info]  (App) Register Controller: ext.app.converter.base64.decode
+[2023-10-17 17:10:27.284] [info]  (App) Register Controller: ext.app.converter.base64.encode
+[2023-10-17 17:10:27.285] [info]  (App) Register Controller: ext.app.converter.escape.decode
+[2023-10-17 17:10:27.285] [info]  (App) Register Controller: ext.app.converter.escape.encode
+[2023-10-17 17:10:27.286] [info]  (App) Register Controller: ext.app.converter.hex.decode
+[2023-10-17 17:10:27.286] [info]  (App) Register Controller: ext.app.converter.hex.encode
+[2023-10-17 17:10:27.287] [info]  (App) Register Controller: ext.app.converter.html-entity.decode
+[2023-10-17 17:10:27.287] [info]  (App) Register Controller: ext.app.converter.html-entity.encode
+[2023-10-17 17:10:27.288] [info]  (App) Register Controller: ext.app.converter.morse-code.decode
+[2023-10-17 17:10:27.288] [info]  (App) Register Controller: ext.app.converter.morse-code.encode
+[2023-10-17 17:10:27.289] [info]  (App) Register Controller: ext.app.converter.quoted-printable.decode
+[2023-10-17 17:10:27.289] [info]  (App) Register Controller: ext.app.converter.quoted-printable.encode
+[2023-10-17 17:10:27.290] [info]  (App) Register Controller: ext.app.converter.shellcode.decode
+[2023-10-17 17:10:27.290] [info]  (App) Register Controller: ext.app.converter.shellcode.encode
+[2023-10-17 17:10:27.291] [info]  (App) Register Controller: ext.app.converter.sql.decode
+[2023-10-17 17:10:27.291] [info]  (App) Register Controller: ext.app.converter.sql.encode
+[2023-10-17 17:10:27.292] [info]  (App) Register Controller: ext.app.converter.tap-code.decode
+[2023-10-17 17:10:27.292] [info]  (App) Register Controller: ext.app.converter.tap-code.encode
+[2023-10-17 17:10:27.293] [info]  (App) Register Controller: ext.app.converter.unicode.decode
+[2023-10-17 17:10:27.294] [info]  (App) Register Controller: ext.app.converter.unicode.encode
+[2023-10-17 17:10:27.295] [info]  (App) Register Controller: ext.app.converter.url.decode
+[2023-10-17 17:10:27.295] [info]  (App) Register Controller: ext.app.converter.url.encode
+[2023-10-17 17:10:27.296] [info]  (App) Register Controller: ext.app.crypto.aes.decode
+[2023-10-17 17:10:27.296] [info]  (App) Register Controller: ext.app.crypto.aes.encode
+[2023-10-17 17:10:27.297] [info]  (App) Register Controller: ext.app.crypto.bcrypt.encode
+[2023-10-17 17:10:27.298] [info]  (App) Register Controller: ext.app.crypto.blowfish.decode
+[2023-10-17 17:10:27.298] [info]  (App) Register Controller: ext.app.crypto.blowfish.encode
+[2023-10-17 17:10:27.299] [info]  (App) Register Controller: ext.app.crypto.des.decode
+[2023-10-17 17:10:27.299] [info]  (App) Register Controller: ext.app.crypto.des.encode
+[2023-10-17 17:10:27.300] [info]  (App) Register Controller: ext.app.crypto.hmac.encode
+[2023-10-17 17:10:27.301] [info]  (App) Register Controller: ext.app.crypto.md2.encode
+[2023-10-17 17:10:27.301] [info]  (App) Register Controller: ext.app.crypto.md4.encode
+[2023-10-17 17:10:27.302] [info]  (App) Register Controller: ext.app.crypto.md5.encode
+[2023-10-17 17:10:27.303] [info]  (App) Register Controller: ext.app.crypto.rabbit.decode
+[2023-10-17 17:10:27.303] [info]  (App) Register Controller: ext.app.crypto.rabbit.encode
+[2023-10-17 17:10:27.304] [info]  (App) Register Controller: ext.app.crypto.rc2.decode
+[2023-10-17 17:10:27.304] [info]  (App) Register Controller: ext.app.crypto.rc2.encode
+[2023-10-17 17:10:27.305] [info]  (App) Register Controller: ext.app.crypto.rc4.decode
+[2023-10-17 17:10:27.305] [info]  (App) Register Controller: ext.app.crypto.rc4.encode
+[2023-10-17 17:10:27.306] [info]  (App) Register Controller: ext.app.crypto.ripe-md.encode
+[2023-10-17 17:10:27.307] [info]  (App) Register Controller: ext.app.crypto.scrypt.encode
+[2023-10-17 17:10:27.308] [info]  (App) Register Controller: ext.app.crypto.sha224.encode
+[2023-10-17 17:10:27.308] [info]  (App) Register Controller: ext.app.crypto.sha256.encode
+[2023-10-17 17:10:27.308] [info]  (App) Register Controller: ext.app.crypto.sha3.encode
+[2023-10-17 17:10:27.308] [info]  (App) Register Controller: ext.app.crypto.sha384.encode
+[2023-10-17 17:10:27.309] [info]  (App) Register Controller: ext.app.crypto.sha512.encode
+[2023-10-17 17:10:27.310] [info]  (App) Register Controller: ext.app.crypto.sha1.encode
+[2023-10-17 17:10:27.310] [info]  (App) Register Controller: ext.app.crypto.sm3.encode
+[2023-10-17 17:10:27.311] [info]  (App) Register Controller: ext.app.crypto.sm4.decode
+[2023-10-17 17:10:27.311] [info]  (App) Register Controller: ext.app.crypto.sm4.encode
+[2023-10-17 17:10:27.312] [info]  (App) Register Controller: ext.app.crypto.triple-des.decode
+[2023-10-17 17:10:27.313] [info]  (App) Register Controller: ext.app.crypto.triple-des.encode
+[2023-10-17 17:10:27.314] [info]  (App) Register Controller: ext.app.misc.file-crc32.get
+[2023-10-17 17:10:27.314] [info]  (App) Register Controller: ext.app.misc.file-hash.get
+[2023-10-17 17:10:27.315] [info]  (App) Register Controller: ext.app.misc.file-type.get
+[2023-10-17 17:10:27.316] [info]  (App) Register Controller: ext.app.misc.hash-identification.get
+[2023-10-17 17:10:27.317] [info]  (App) Register Controller: ext.app.misc.image-exif.get
+[2023-10-17 17:10:27.318] [info]  (App) Register Controller: ext.app.misc.image-gif-extractor.get
+[2023-10-17 17:10:27.319] [info]  (App) Register Controller: ext.app.other.brainfuck.decode
+[2023-10-17 17:10:27.319] [info]  (App) Register Controller: ext.app.other.brainfuck.encode
+[2023-10-17 17:10:27.320] [info]  (App) Register Controller: ext.app.other.bubble-babble.decode
+[2023-10-17 17:10:27.320] [info]  (App) Register Controller: ext.app.other.bubble-babble.encode
+[2023-10-17 17:10:27.331] [info]  (App) Register Controller: ext.app.other.crc16.encode
+[2023-10-17 17:10:27.331] [info]  (App) Register Controller: ext.app.other.crc32.encode
+[2023-10-17 17:10:27.332] [info]  (App) Register Controller: ext.app.other.crc8.encode
+[2023-10-17 17:10:27.333] [info]  (App) Register Controller: ext.app.other.image-base64.decode
+[2023-10-17 17:10:27.333] [info]  (App) Register Controller: ext.app.other.image-base64.encode
+[2023-10-17 17:10:27.334] [info]  (App) Register Controller: ext.app.other.image-qrcode.decode
+[2023-10-17 17:10:27.334] [info]  (App) Register Controller: ext.app.other.image-qrcode.encode
+[2023-10-17 17:10:27.335] [info]  (App) Register Controller: ext.app.other.ip-addressv4.decode
+[2023-10-17 17:10:27.336] [info]  (App) Register Controller: ext.app.other.ip-addressv4.encode
+[2023-10-17 17:10:27.337] [info]  (App) Register Controller: ext.app.other.jother.decode
+[2023-10-17 17:10:27.337] [info]  (App) Register Controller: ext.app.other.jother.encode
+[2023-10-17 17:10:27.338] [info]  (App) Register Controller: ext.app.other.jsfuck.decode
+[2023-10-17 17:10:27.338] [info]  (App) Register Controller: ext.app.other.jsfuck.encode
+[2023-10-17 17:10:27.339] [info]  (App) Register Controller: ext.app.other.mime.decode
+[2023-10-17 17:10:27.339] [info]  (App) Register Controller: ext.app.other.mime.encode
+[2023-10-17 17:10:27.340] [info]  (App) Register Controller: ext.app.other.punycode.decode
+[2023-10-17 17:10:27.340] [info]  (App) Register Controller: ext.app.other.punycode.encode
+[2023-10-17 17:10:27.341] [info]  (App) Register Controller: ext.app.other.uuencode.decode
+[2023-10-17 17:10:27.342] [info]  (App) Register Controller: ext.app.other.uuencode.encode
+[2023-10-17 17:10:27.342] [info]  (App) Register Controller: ext.app.other.xxencode.decode
+[2023-10-17 17:10:27.343] [info]  (App) Register Controller: ext.app.other.xxencode.encode
+[2023-10-17 17:10:27.344] [info]  (App) Register Controller: ext.app.pki.rsa.decode
+[2023-10-17 17:10:27.344] [info]  (App) Register Controller: ext.app.pki.rsa.encode
+[2023-10-17 17:10:27.345] [info]  (App) Register Controller: ext.app.pki.rsa-key.generate
+[2023-10-17 17:10:27.346] [info]  (App) Register Controller: ext.app.provider.factordb.get
+[2023-10-17 17:10:27.347] [info]  (App) Register Controller: ext.app.provider.ip-asn.get
+[2023-10-17 17:10:27.348] [info]  (App) Register Controller: ext.app.provider.ip-info.get
+[2023-10-17 17:10:27.349] [info]  (App) Register Controller: ext.app.provider.ip-whois.get
+[2023-10-17 17:10:27.350] [info]  (App) Register Controller: ext.app.provider.whois.get
+[2023-10-17 17:10:34.965] [error] (App) Cannot find module 'is'
+Require stack:
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.common\default-value.js
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.app.converter.hex\controllers\ext.app.converter.hex.encode.js
+- C:\Users\HP\AppData\Local\Temp\1tU6ywJXRhPzwPx01MTzouVpzml\resources\app.asar\main\index.js
+- 
+[2023-10-17 17:10:39.172] [error] (App) Cannot find module 'is'
+Require stack:
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.common\default-value.js
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.app.converter.hex\controllers\ext.app.converter.hex.encode.js
+- C:\Users\HP\AppData\Local\Temp\1tU6ywJXRhPzwPx01MTzouVpzml\resources\app.asar\main\index.js
+- 
+[2023-10-17 17:10:39.356] [error] (App) Cannot find module 'is'
+Require stack:
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.common\default-value.js
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.app.converter.hex\controllers\ext.app.converter.hex.encode.js
+- C:\Users\HP\AppData\Local\Temp\1tU6ywJXRhPzwPx01MTzouVpzml\resources\app.asar\main\index.js
+- 
+[2023-10-17 17:10:40.413] [error] (App) Cannot find module 'is'
+Require stack:
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.common\default-value.js
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.app.converter.hex\controllers\ext.app.converter.hex.decode.js
+- C:\Users\HP\AppData\Local\Temp\1tU6ywJXRhPzwPx01MTzouVpzml\resources\app.asar\main\index.js
+- 
+[2023-10-17 17:10:42.099] [error] (App) Cannot find module 'is'
+Require stack:
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.common\default-value.js
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.app.converter.hex\controllers\ext.app.converter.hex.encode.js
+- C:\Users\HP\AppData\Local\Temp\1tU6ywJXRhPzwPx01MTzouVpzml\resources\app.asar\main\index.js
+- 
+[2023-10-17 17:10:43.518] [error] (App) Cannot find module 'is'
+Require stack:
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.common\default-value.js
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.app.converter.hex\controllers\ext.app.converter.hex.encode.js
+- C:\Users\HP\AppData\Local\Temp\1tU6ywJXRhPzwPx01MTzouVpzml\resources\app.asar\main\index.js
+- 
+[2023-10-17 17:10:44.506] [error] (App) Cannot find module 'is'
+Require stack:
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.common\default-value.js
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.app.converter.hex\controllers\ext.app.converter.hex.encode.js
+- C:\Users\HP\AppData\Local\Temp\1tU6ywJXRhPzwPx01MTzouVpzml\resources\app.asar\main\index.js
+- 
+[2023-10-17 17:10:46.475] [error] (App) Cannot find module 'is'
+Require stack:
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.common\default-value.js
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.app.converter.hex\controllers\ext.app.converter.hex.decode.js
+- C:\Users\HP\AppData\Local\Temp\1tU6ywJXRhPzwPx01MTzouVpzml\resources\app.asar\main\index.js
+- 
+[2023-10-17 17:10:47.772] [error] (App) Cannot find module 'is'
+Require stack:
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.common\default-value.js
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.app.converter.hex\controllers\ext.app.converter.hex.decode.js
+- C:\Users\HP\AppData\Local\Temp\1tU6ywJXRhPzwPx01MTzouVpzml\resources\app.asar\main\index.js
+- 
+[2023-10-17 17:10:54.088] [error] (App) Cannot find module 'is'
+Require stack:
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.common\default-value.js
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.app.converter.hex\controllers\ext.app.converter.hex.decode.js
+- C:\Users\HP\AppData\Local\Temp\1tU6ywJXRhPzwPx01MTzouVpzml\resources\app.asar\main\index.js
+- 
+[2023-10-17 17:10:54.260] [error] (App) Cannot find module 'is'
+Require stack:
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.common\default-value.js
+- F:\CTF\Tools\Crypto\CaptfEncoder\extensions\ext.app.converter.hex\controllers\ext.app.converter.hex.decode.js
+- C:\Users\HP\AppData\Local\Temp\1tU6ywJXRhPzwPx01MTzouVpzml\resources\app.asar\main\index.js
+- 
