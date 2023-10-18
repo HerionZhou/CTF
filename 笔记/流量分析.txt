@@ -39,3 +39,5 @@
 	冰蝎2.0采用密钥协商机制，开头会有“pass=[3位数字]”的GET请求AES密钥
 11.dmp文件
 	使用mimikatz获得密码
+12.jdbc
+	jdbc是tcp连接，不是http
