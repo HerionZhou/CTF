@@ -45,3 +45,5 @@ CTF - 取证
 	会用工具就能做题：volatility windows下挂载磁盘的工具 DG
 
 	.raw   无后缀   .vmdk
+	
+	打印服务：spooler

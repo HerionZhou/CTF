@@ -41,3 +41,5 @@
 	使用mimikatz获得密码
 12.jdbc
 	jdbc是tcp连接，不是http
+13.shiro反序列化
+	特征：cookie里有rememberMe
