@@ -1,0 +1,2 @@
+导出方法：文件--导出特定分组
+过滤条件：usbhid.data and usb.addr==2.8.1
