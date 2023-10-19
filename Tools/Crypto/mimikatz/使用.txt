@@ -1,3 +1,4 @@
+.dmp文件解析系统密码
 //提升权限
 privilege::debug
 //载入dmp文件
