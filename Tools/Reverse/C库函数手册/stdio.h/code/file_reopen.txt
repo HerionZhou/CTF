@@ -1,0 +1,1 @@
+stdout is redirected to a file

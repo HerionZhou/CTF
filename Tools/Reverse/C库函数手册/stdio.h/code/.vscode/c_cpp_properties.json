@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/MinGW/lib/gcc/mingw32/8.2.0/include/*",
+                "D:/MinGW/lib/gcc/mingw32/8.2.0/include/c++/*",
+                "D:/MinGW/lib/gcc/mingw32/8.2.0/include/c++/mingw32/*",
+                "D:/MinGW/lib/gcc/mingw32/8.2.0/include/c++/backward/*"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "8.1",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "${default}",
+            "compilerPath": "D:/MinGW/bin/g++.exe"
+        }
+    ],
+    "version": 4
+}

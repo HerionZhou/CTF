@@ -1,0 +1,2 @@
+UPX：
+	kali下	upx -d [文件]
