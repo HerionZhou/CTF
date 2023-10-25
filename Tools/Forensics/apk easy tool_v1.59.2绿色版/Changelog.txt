@@ -1,0 +1,53 @@
+APK Easy Tool v1.59.2 (2021-04-03)
+- Fixed that it opens log window when you open APK infomation
+- Updated polish language
+
+APK Easy Tool v1.59.1 (2021-03-25)
+- Fixed config.xml not saving
+- Re-write CMD execution code from scratch. Now it will work for all system, and it support real time logging
+- Log output cleanup
+- Removed code page, it is no longer needed
+- Language updated
+
+APK Easy Tool v1.59 (2021-03-16)
+
+- Fixed decompile, compile and signing that does nothing for no reason
+- No longer show error message due to peoples reporing me useless screenshot
+- No longer show update dialog if update is available. Click on the logo to show it
+- Setting Java heap size is no longer needed but now has option to enable it. I realized that Java auto set heap size to maximum as possible. Java 32-bit: 1.5GB, and Java 64-bit: 4GB, if i'm right
+- Hide some unused options.
+- --v4-no-merkle-tree option actually does not exist so it has been removed
+- Updated SDK tools, adb, zipalign, aapt, apksigner to 30.0.3
+- Updated smali/baksmali to 2.5.2
+- Updated languages
+
+APK Easy Tool v1.58 (2020-12-03)
+
+Note:
+- The tool has become a bit too advanced so we remove some features to keep it simple and to proper maintaining
+- As of apktool.jar 2.5.0, 32 bit support is deprecated. Once 32 bit support is removed from apktool, APK Easy Tool will also have 32 bit support removed. 32 bit is dead now
+
+Changelog:
+- Updated apktool.jar to 2.5.0
+- Language improvements
+- Updated adb, zipalign, aapt, apksigner from Android SDK 30.0.2
+- Logs and history now stored in temp folder C:\Users\(username)\AppData\Local\Temp\AET. They should be stored temporary, not permanently. You can also use any disk cleaner to clear your temp folder which also clears APK Easy Tool's icon cache, logs and history
+- Added signature signing options. v4 signing disabled by default so it doesn't create useless .idsig file
+- "Only disassemble the main dex classes" is on by default due to annoying smali_assets/assets.dex error on some APKs
+in the root. [v2.4.1+]
+- Switched back to aapt 1 due to some issues getting APK info
+- Default heap is 2048m
+- Fix icon loading for decompiled APK
+- Fix framework installation path
+- Temporary disabled CMD mode, may be removed in next updated. New way to execute CMD is being improved. 
+- For more privacy, logs will only save if an error occured. You can still clear the log anytime
+- Portable Java path has changed. Select java.exe instead the bin folder
+- You can press ESC to cancel which would kill process of java.exe, adb.exe, zipalign.exe and 7z.exe. This is not recommended to do
+- Added status bar. It's easier to work with it than custom yellow notice bar
+- Removed log date. I don't think anyone will ever look back of their logs
+- Removed log level
+- Removed replace spaces with underscore. You can use PowerToys which has PowerRename that does the job
+- Removed signapk.jar since it's too old and slow
+- Removed ZIP signing since not many using this much. APK Easy Tool should be more focused on APK. Please use an alternative tool for ZIP signing https://forum.xda-developers.com/android/software-hacking/tool-zip-builder-v4-2-1-build-sign-t3739556
+- Removed quick options because the UI looking bit awkward. It should be simple and more space for multi-languages
+- Removed disable tooltip checkbox. Now it is always shown

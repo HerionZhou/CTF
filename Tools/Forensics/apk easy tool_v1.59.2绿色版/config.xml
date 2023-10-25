@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<APKEasyTool xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SelectedPathMain />
+  <SelectedDexOdexOat />
+  <SelectedSmali />
+  <PathDec>D:\Program Files\apk easy tool_v1.59.2绿色版\1-Decompiled APKs</PathDec>
+  <PathCom>D:\Program Files\apk easy tool_v1.59.2绿色版\2-Recompiled APKs</PathCom>
+  <PathExt>D:\Program Files\apk easy tool_v1.59.2绿色版\3-Extracted APKs</PathExt>
+  <PathZip>D:\Program Files\apk easy tool_v1.59.2绿色版\4-Zipped APKs</PathZip>
+  <PathBaksmali>D:\Program Files\apk easy tool_v1.59.2绿色版\5-Baksmali</PathBaksmali>
+  <PathSmali>D:\Program Files\apk easy tool_v1.59.2绿色版\6-Smali</PathSmali>
+  <PathPem>D:\Program Files\apk easy tool_v1.59.2绿色版\Resources\apkeasytool.pem</PathPem>
+  <PathPk8>D:\Program Files\apk easy tool_v1.59.2绿色版\Resources\apkeasytool.pk8</PathPk8>
+  <PathJksFile />
+  <PathTempDec />
+  <PathTempFw />
+  <PathTempFw2 />
+  <PathFw />
+  <PathJava />
+  <FileNameDec />
+  <FileNameCom />
+  <FileNameDexOdexOat />
+  <FileNameSmali />
+  <DropDownApkTool>apktool_2.4.1.jar</DropDownApkTool>
+  <DwordX>78</DwordX>
+  <DwordY>78</DwordY>
+  <DwordXmx>1024</DwordXmx>
+  <CheckBoxDecB>false</CheckBoxDecB>
+  <CheckBoxDecF>true</CheckBoxDecF>
+  <CheckBoxDecK>false</CheckBoxDecK>
+  <CheckBoxDecM>false</CheckBoxDecM>
+  <CheckBoxDecR>false</CheckBoxDecR>
+  <CheckBoxDecS>false</CheckBoxDecS>
+  <CheckBoxDecNC>false</CheckBoxDecNC>
+  <CheckBoxDecOMC>true</CheckBoxDecOMC>
+  <CheckBoxComC>false</CheckBoxComC>
+  <CheckBoxComD>false</CheckBoxComD>
+  <CheckBoxComF>true</CheckBoxComF>
+  <CheckBoxComNC>false</CheckBoxComNC>
+  <CheckBoxComAapt2>false</CheckBoxComAapt2>
+  <CheckBoxZipF>false</CheckBoxZipF>
+  <CheckBoxZipP>true</CheckBoxZipP>
+  <CheckBoxZipZ>false</CheckBoxZipZ>
+  <CheckBoxZipV>false</CheckBoxZipV>
+  <CheckBoxShellExt>false</CheckBoxShellExt>
+  <CheckBoxEnaLog>false</CheckBoxEnaLog>
+  <CheckBoxUseJks>false</CheckBoxUseJks>
+  <CheckBoxSignApk>false</CheckBoxSignApk>
+  <CheckBoxInstallApk>false</CheckBoxInstallApk>
+  <CheckBoxOverApk>false</CheckBoxOverApk>
+  <CheckBoxZipAfterSign>true</CheckBoxZipAfterSign>
+  <CheckBoxToolTips>false</CheckBoxToolTips>
+  <CheckBoxChkUpdate>true</CheckBoxChkUpdate>
+  <CheckBoxWinPos>false</CheckBoxWinPos>
+  <CheckBoxRememberPass>false</CheckBoxRememberPass>
+  <CheckBoxDisHistory>false</CheckBoxDisHistory>
+  <CheckBoxDisComMsgBox>false</CheckBoxDisComMsgBox>
+  <CheckBoxUseExtJava>false</CheckBoxUseExtJava>
+  <CheckBoxReadApk>false</CheckBoxReadApk>
+  <CheckBoxReplaceSpace>false</CheckBoxReplaceSpace>
+  <AskToSetupDir>false</AskToSetupDir>
+  <isSidedLogOpened>false</isSidedLogOpened>
+  <isReset>false</isReset>
+  <DecApiLvl />
+  <ComApiLvl />
+  <ReplaceWithSpace>false</ReplaceWithSpace>
+  <CheckBoxTaskBar>true</CheckBoxTaskBar>
+  <v2SigningEnabled>默认</v2SigningEnabled>
+  <v3SigningEnabled>默认</v3SigningEnabled>
+  <v4SigningEnabled>否</v4SigningEnabled>
+  <Language>简体中文.xml</Language>
+  <CheckBoxCodePage>false</CheckBoxCodePage>
+  <CodePage>0</CodePage>
+  <CheckBoxAapt>false</CheckBoxAapt>
+  <CheckBoxUseJavaXmx>false</CheckBoxUseJavaXmx>
+  <TextBoxAapt />
+</APKEasyTool>
