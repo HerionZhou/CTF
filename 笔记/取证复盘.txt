@@ -1,3 +1,9 @@
+123456：e10adc3949ba59abbe56e057f20f883e
+系统版本号
+	cat /etc/redhat-release
+	cat /proc/version  #查看版本信息
+	uname -a   #查看版本和内核
+
 1.RAID恢复
 	FTK Imager挂载RAID阵列--R-Studio恢复工具创建虚拟块RAID--自动检测后导出镜像--逐字节导出
 
@@ -94,3 +100,17 @@ wireshark使用：
 1.http contains ""
 2.查看开放端口
 	ip.dst == **** and tcp.flags.reset == 1
+
+
+
+$RECYCLE.BIN 不是像一个回收站，它就是回收站！每个盘都有！你在每个盘删除的东西都会留在各自盘的回收站（即$RECYCLE.BIN ）里，而桌面上的就是总的回收站了
+
+
+VC,TC容器挂在后，看一下回收站，可能有东西
+
+
+mysql远程登录
+	执行use mysql;
+	select host from user where user = 'root';  //如果是localhost则禁止远程登录
+	update user set host = '%' where user = 'root';
+	重启mysql
